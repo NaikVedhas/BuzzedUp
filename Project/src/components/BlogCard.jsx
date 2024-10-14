@@ -8,14 +8,14 @@ const BlogCard = ({data}) => {
   return (
     <div className="grid grid-cols-3 gap-8 m-4">
       {data && data.map((d) => (
-        <Link key={d.id}>
+        <div key={d.id}>
           <div className="rounded-lg p-2 shadow-xl  ">
-            <img className="w-full " src={d.image} alt="img" />
+            <Link to={`/blogs/${d.id}`} ><img className="w-full " src={d.image} alt="img" /></Link>
             <h1 className="text-xl italic mx-1">{d.title}</h1>
-            <p className="flex text-blue-600"><IoPersonSharp className="m-1"/> {d.author}</p>
+            <Link  className="flex text-blue-600"><IoPersonSharp className="m-1"/> {d.author}</Link>
             <p className="mx-1">Published on: {d.published_date}</p>
           </div>
-        </Link>
+        </div>
       ))}
     </div>
   )

@@ -33,8 +33,7 @@ function Blogs() {
             <button
               key={i}
               onClick={() => handleCategory(c)}
-              className={`px-6 py-2 rounded-full border-2 
-                          ${category === c ? 'bg-orange-500 text-white' : 'bg-white border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white'}`}
+              className={`px-6 py-2 rounded-full border-2 hover:bg-orange-500 hover:text-white`}
             >
               {c}
             </button>
@@ -59,7 +58,7 @@ function Blogs() {
               populardata.map((d, i) => (
                 <div className="mb-4 p-2 border-b" key={i}>
                   <div className="font-semibold">{d.title}</div>
-                  <Link className="flex items-center text-orange-500 hover:text-orange-700 mt-1">
+                  <Link to={`/blogs/${d.id}`} className="flex items-center text-orange-500 hover:text-orange-700 mt-1">
                     Read more <FaArrowRightToBracket className="ml-2" />
                   </Link>
                 </div>
