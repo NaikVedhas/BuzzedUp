@@ -8,16 +8,18 @@ import Contact from './components/Contact';
 import Blogs from './components/Blogs';
 import Layout from '../Layout';
 import Home from './components/Home'
+import BlogDetails from './components/BlogDetails';
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
+      <Route path='' element={<Home/>} />
       <Route path='about' element={<About/>} />
       <Route path='services' element={<Services/>} />
       <Route path='contact' element={<Contact/>} />
-      <Route path='blogs' element={<Blogs/>} />
-      <Route path='' element={<Home/>} />
+      <Route path='blogs/' element={<Blogs/>}/>
+      <Route path='blogs/:id' element={<BlogDetails/>} />
 
     </Route>
   )
