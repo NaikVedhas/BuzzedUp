@@ -8,7 +8,7 @@ const BlogDetails = () => {
   const { data, error, isLoading } = useFetch(`http://localhost:3000/blogs/${id}`);
   const { data:fulldata, error:fullerror, isLoading:fulllisLoading } = useFetch(`http://localhost:3000/blogs`);
   
-  const populardata = fulldata ? fulldata.filter((d) => d.popular === "yes") : [];
+  const populardata = fulldata ? fulldata.filter((d) => d.popular === "yes" && d.id!==id ) : [];
 
 
 
@@ -36,7 +36,7 @@ const BlogDetails = () => {
               <BsClockFill className="mr-2" />
               {data.reading_time}
             </p>
-            <Link to="" className="hover:text-orange-500">
+            <Link to={`/profile/${data.id}`} className="hover:text-orange-500">
               Written by: {data.author}
             </Link>
           </div>
@@ -51,8 +51,8 @@ const BlogDetails = () => {
       )}
 
     </div>
+    <h1 className='text-center mt-5 pt-2 text-orange-500 text-3xl font-semibold '>Popular Blogs</h1>
     <div className='flex flex-wrap justify-center min-h-screen space-x-4 mt-8'>
-    <h1>Popular Blogs</h1>
       {populardata.length > 0 ? (
         populardata.map((d, i) => (
           <div className="rounded-lg shadow-xl p-8 w-2/3" key={i}>

@@ -9,6 +9,7 @@ import Blogs from './components/Blogs';
 import Layout from '../Layout';
 import Home from './components/Home'
 import BlogDetails from './components/BlogDetails';
+import Profile from './components/Profile';
 
 
 const router = createBrowserRouter(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path='contact' element={<Contact/>} />
       <Route path='blogs/' element={<Blogs/>}/>
       <Route path='blogs/:id' element={<BlogDetails/>} />
+      <Route path='profile/:id' element={<Profile />} />
 
     </Route>
   )
