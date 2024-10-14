@@ -13,7 +13,6 @@ const useFetch = (url) => {
             if(!res.ok){
                 throw Error("Database Down");
             }
-            
             return res.json();
         })
         .then(data =>{
@@ -29,6 +28,8 @@ const useFetch = (url) => {
         });
 
     },[url])
+
+    
  
     return {data,error,isLoading};
 }

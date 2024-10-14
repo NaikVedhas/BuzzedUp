@@ -10,6 +10,8 @@
             "published_date": "October 4, 2023",
             "reading_time": "5 minutes",
             "content": "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
+            "popular":"yes",
+
             "tags": ["Blogging", "Writing"]
         },
         {
@@ -22,6 +24,8 @@
             "published_date": "October 4, 2023",
             "reading_time": "4 minutes",
             "content": "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
+            "popular":"yes",
+
             "tags": ["Work", "Blogging"]
         },
     {
@@ -34,6 +38,8 @@
         "published_date": "October 4, 2023",
         "reading_time": "8 minutes",
         "content": "Welcome back to Found, where we get the stories behind the startups. This week, our old friend Darrell Etherington joins Becca Szkutak to talk with Professor Esther Rodriguez-Villegas from Acurable...",
+        "popular":"yes",
+
         "tags": ["Biotech", "Health"]
     },
     {
@@ -46,6 +52,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "In November 2019, Andreessen Horowitz General Partner Angela Strange famously declared that, “Every company will be a fintech company.” Specifically, Strange projected that — in the not-too-d...",
+        "popular":"yes",
+        
         "tags": ["Fintech", "Writing"]
     },
     {
@@ -58,6 +66,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Pow.bio intends to bring down the costs associated with biomanufacturing by reimagining of fermentation facility operations.",
+        "popular":"yes",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -70,6 +80,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Today is news marks a turnaround for a company that is had its share of ups and downs over the past year.",
+        "popular":"yes",
+        
         "tags": ["Blogging", "Writing"]
     },
     {
@@ -82,6 +94,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "What if you could interact with any piece of software using natural language? Imagine typing in a prompt and having AI translate the instructions into machine-comprehendable commands, executing tas...",
+        "popular":"no",
         "tags": ["AI", "Writing"]
     },
     {
@@ -94,6 +107,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "One thing is clear this year: generative AI is having a tremendous impact on the software industry, and a week doesn’t pass without software companies announcing their plans to incorporate the seem...",
+        "popular":"no",
+
         "tags": ["Security", "Writing"]
     },
     {
@@ -106,6 +121,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Physical security keys remain one of the best ways to secure user accounts, but the fact that new users have to register them before they can use them often adds quite a bit of friction. Yubico, th...",
+        "popular":"yes",
+
         "tags": ["Blogging", "Writing"]
     },
     {
@@ -118,6 +135,8 @@
         "published_date": "2023-10-01",
         "reading_time": "8 minutes",
         "content": "Blackbird Labs, a hospitality tech company whose platform helps restaurants stay in touch with guests and incentivize them to dine out more frequently, today announced that it raised $24 million in...",
+        "popular":"yes",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -130,6 +149,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "popular":"yes",
+
         "tags": ["Growth", "Writing"]
     },
     {
@@ -142,6 +163,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Yahoo, otherwise known as the company that pays my salary (full disclosure: Yahoo owns TC), today announced that it’s spinning off Vespa, the big data serving engine, into an independent vent...",
+        "popular":"yes",
+        
         "tags": ["AI", "Writing"]
     },
     {
@@ -154,6 +177,8 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Okta, the U.S.-based identity mangement giant, announced today that it has acquired a password mangement app, Uno. The company said that Uno’s team will help speed up the public launch of the...",
+        "popular":"yes",
+
         "tags": ["Apps", "Writing"]
     },
     {
@@ -166,6 +191,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "CoPilot, a digital training app that matches users with one-on-one remote fitness coaches, has raised $6.5M in Series A-1 funding led by Jackson Square Ventures. The app, which has seen more than 1...",
+        "popular":"yes",
+
         "tags": ["Apps", "Writing"]
     },
     {
@@ -178,6 +205,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Opsera, a DevOps platform geared toward enterprise clients, today announced that it raised $12 million in a funding round — a tranche smaller than Opsera’s previous — led by Taiwa...",
+        "popular":"yes",
+
         "tags": ["Apps", "Writing"]
     },
     {
@@ -190,6 +219,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Mainstream social media platforms could face limits on their ability to take down independent journalism that violates their terms and conditions under a proposal agreed by European Union lawmakers...",
+        "popular":"no",
+
         "tags": ["Apps", "Writing"]
     },
     {
@@ -202,6 +233,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Recent incidents, such as the breach at MGM Resorts, serve as stark reminders of the potential consequences of inadequate security measures.",
+        "popular":"no",
+
         "tags": ["Apps", "Writing"]
     },
     {
@@ -214,6 +247,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Uber is expanding its peer-to-peer package delivery service, Uber Connect. Now, customers who don’t want to schlep a package to the post office can request an Uber courier to do it for them w...",
+        "popular":"no",
+
         "tags": ["Apps", "Writing"]
     },
     {
@@ -226,6 +261,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The move towards Open Banking payments, especially in the EU, effectively kicked-off the FinTech boom. Open Baking standards meant that FinTech startups could create Wallets and effectively become ...",
+        "popular":"no",
+
         "tags": ["Apps", "Writing"]
     },
     {
@@ -238,6 +275,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The move towards Open Banking payments, especially in the EU, effectively kicked-off the FinTech boom. Open Baking standards meant that FinTech startups could create Wallets and effectively become ...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -250,6 +289,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Investors have historically been skeptical of green hydrogen. High production costs, expensive infrastructure builds, competition with batteries and minimal government support have made the green h...",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -262,6 +303,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The San Francisco Police Department is investigating an October 2 incident that left a woman stuck underneath a Cruise robotaxi after being hit by a human-driven vehicle. Video captured by Cruise a...",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -274,6 +317,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Spotify today unveiled what’s next for the future of its audiobooks service. At an event hosted in its New York offices on Tuesday afternoon, the company announced a new business model where",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -286,6 +331,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "AI deepfake today unveiled what’s next for the future of its audiobooks service. At an event hosted in its New York offices on Tuesday afternoon, the company announced a new business model where",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -298,6 +345,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "PayPal announced today that users can now add their PayPal and Venmo credit or debit cards to their Apple Wallet. With this new integration, you can now make payments in-store, online or on apps using Apple Pay. The company notes that users will continue earning their cashback and rewards.",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -310,6 +359,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Xencelabs announced today that users can now add their Xencelabs and Venmo credit or debit cards to their Apple Wallet. With this new integration, you can now make payments in-store, online or on apps using Apple Pay. The company notes that users will continue earning their cashback and rewards.",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -322,6 +373,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Xencelabs announced today that users can now add their Xencelabs and Venmo credit or debit cards to their Apple Wallet. With this new integration, you can now make payments in-store, online or on apps using Apple Pay. The company notes that users will continue earning their cashback and rewards.",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -334,6 +387,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Xencelabs announced today that users can now add their Xencelabs and Venmo credit or debit cards to their Apple Wallet. With this new integration, you can now make payments in-store, online or on apps using Apple Pay. The company notes that users will continue earning their cashback and rewards.",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -346,6 +401,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -358,6 +415,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -370,6 +429,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -382,6 +443,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+
         "tags": ["Startups", "Writing"]
     },
     {
@@ -394,6 +457,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -406,6 +471,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -418,6 +485,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -430,6 +499,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -442,6 +513,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -454,6 +527,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -466,6 +541,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
+        
         "tags": ["Startups", "Writing"]
     },
     {
@@ -478,6 +555,8 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -490,6 +569,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -502,6 +582,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -514,6 +595,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -526,18 +608,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
-        "tags": ["Startups", "Writing"]
-    },
-    {
-        "id": 45,
-        "title": "Sparx wants to do for enterprise what Truebill did for consumer recurring bills",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/SaaS-final.png?w=430&h=230&crop=1",
-        "category": "Fintech",
-        "author": "Natasha Lomas",
-        "authorPic": "author1.jpg",
-        "published_date": "2023-10-01",
-        "reading_time": "6 minutes",
-        "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -550,6 +621,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -562,30 +634,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
-        "tags": ["Startups", "Writing"]
-    },
-    {
-        "id": 47,
-        "title": "Cloaked manages your logins with proxy emails, phone numbers and a built-in password manager",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/09/Cloaked-Privacy-2.jpeg?w=430&h=230&crop=1",
-        "category": "Apps",
-        "author": "Natasha Lomas",
-        "authorPic": "author1.jpg",
-        "published_date": "2023-10-01",
-        "reading_time": "6 minutes",
-        "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
-        "tags": ["Startups", "Writing"]
-    },
-    {
-        "id": 47,
-        "title": "Unitary AI picks up $15M for its multimodal approach to video content moderation",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/Screenshot-2023-10-03-at-01.44.37.png?w=430&h=230&crop=1",
-        "category": "Health",
-        "author": "Natasha Lomas",
-        "authorPic": "author1.jpg",
-        "published_date": "2023-10-01",
-        "reading_time": "6 minutes",
-        "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -598,6 +647,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -610,6 +660,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The Arc browser is “finally” launching its AI-powered features under the “Arc Max” moniker. The Browser Company is using a combination of OpenAI’s GPT-3.5 and Anthropi...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -622,6 +673,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -634,6 +686,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -646,6 +699,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -658,6 +712,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -670,6 +725,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -682,6 +738,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -694,6 +751,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -706,6 +764,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -718,6 +777,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -730,6 +790,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Google is updating Pixel Buds Pro this fall with features like conversation detection — which is similar to Apple’s conversation awareness features for AirPods — listening stats, and support ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -742,6 +803,7 @@
         "published_date": "October 4, 2023",
         "reading_time": "5 minutes",
         "content": "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
+        "popular":"no",
         "tags": ["Blogging", "Writing"]
     },
     {
@@ -754,6 +816,7 @@
         "published_date": "October 4, 2023",
         "reading_time": "4 minutes",
         "content": "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
+        "popular":"no",
         "tags": ["Work", "Blogging"]
     },
     {
@@ -766,6 +829,7 @@
         "published_date": "October 4, 2023",
         "reading_time": "8 minutes",
         "content": "Welcome back to Found, where we get the stories behind the startups. This week, our old friend Darrell Etherington joins Becca Szkutak to talk with Professor Esther Rodriguez-Villegas from Acurable...",
+        "popular":"no",
         "tags": ["Biotech", "Health"]
     },
     {
@@ -778,6 +842,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "In November 2019, Andreessen Horowitz General Partner Angela Strange famously declared that, “Every company will be a fintech company.” Specifically, Strange projected that — in the not-too-d...",
+        "popular":"no",
         "tags": ["Fintech", "Writing"]
     },
     {
@@ -790,6 +855,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Pow.bio intends to bring down the costs associated with biomanufacturing by reimagining of fermentation facility operations.",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -802,6 +868,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Today is news marks a turnaround for a company that is had its share of ups and downs over the past year.",
+        "popular":"no",
         "tags": ["Blogging", "Writing"]
     },
     {
@@ -814,6 +881,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "What if you could interact with any piece of software using natural language? Imagine typing in a prompt and having AI translate the instructions into machine-comprehendable commands, executing tas...",
+        "popular":"no",
         "tags": ["AI", "Writing"]
     },
     {
@@ -826,6 +894,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "One thing is clear this year: generative AI is having a tremendous impact on the software industry, and a week doesn’t pass without software companies announcing their plans to incorporate the seem...",
+        "popular":"no",
         "tags": ["Security", "Writing"]
     },
     {
@@ -838,6 +907,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Physical security keys remain one of the best ways to secure user accounts, but the fact that new users have to register them before they can use them often adds quite a bit of friction. Yubico, th...",
+        "popular":"no",
         "tags": ["Blogging", "Writing"]
     },
     {
@@ -850,6 +920,7 @@
         "published_date": "2023-10-01",
         "reading_time": "8 minutes",
         "content": "Blackbird Labs, a hospitality tech company whose platform helps restaurants stay in touch with guests and incentivize them to dine out more frequently, today announced that it raised $24 million in...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -862,6 +933,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        "popular":"no",
         "tags": ["Growth", "Writing"]
     },
     {
@@ -874,6 +946,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Yahoo, otherwise known as the company that pays my salary (full disclosure: Yahoo owns TC), today announced that it’s spinning off Vespa, the big data serving engine, into an independent vent...",
+        "popular":"no",
         "tags": ["AI", "Writing"]
     },
     {
@@ -886,6 +959,7 @@
         "published_date": "2023-10-01",
         "reading_time": "5 minutes",
         "content": "Okta, the U.S.-based identity mangement giant, announced today that it has acquired a password mangement app, Uno. The company said that Uno’s team will help speed up the public launch of the...",
+        "popular":"no",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -898,6 +972,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "CoPilot, a digital training app that matches users with one-on-one remote fitness coaches, has raised $6.5M in Series A-1 funding led by Jackson Square Ventures. The app, which has seen more than 1...",
+        "popular":"no",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -910,6 +985,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Opsera, a DevOps platform geared toward enterprise clients, today announced that it raised $12 million in a funding round — a tranche smaller than Opsera’s previous — led by Taiwa...",
+        "popular":"no",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -922,6 +998,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Mainstream social media platforms could face limits on their ability to take down independent journalism that violates their terms and conditions under a proposal agreed by European Union lawmakers...",
+        "popular":"no",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -934,6 +1011,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Recent incidents, such as the breach at MGM Resorts, serve as stark reminders of the potential consequences of inadequate security measures.",
+        "popular":"no",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -946,6 +1024,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Uber is expanding its peer-to-peer package delivery service, Uber Connect. Now, customers who don’t want to schlep a package to the post office can request an Uber courier to do it for them w...",
+        "popular":"no",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -958,6 +1037,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The move towards Open Banking payments, especially in the EU, effectively kicked-off the FinTech boom. Open Baking standards meant that FinTech startups could create Wallets and effectively become ...",
+        "popular":"no",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -970,6 +1050,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The move towards Open Banking payments, especially in the EU, effectively kicked-off the FinTech boom. Open Baking standards meant that FinTech startups could create Wallets and effectively become ...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -982,6 +1063,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Investors have historically been skeptical of green hydrogen. High production costs, expensive infrastructure builds, competition with batteries and minimal government support have made the green h...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -994,6 +1076,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The San Francisco Police Department is investigating an October 2 incident that left a woman stuck underneath a Cruise robotaxi after being hit by a human-driven vehicle. Video captured by Cruise a...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -1006,6 +1089,7 @@
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "The San Francisco Police Department is investigating an October 2 incident that left a woman stuck underneath a Cruise robotaxi after being hit by a human-driven vehicle. Video captured by Cruise a...",
+        "popular":"no",
         "tags": ["Startups", "Writing"]
     },
     {
@@ -1018,6 +1102,7 @@
         "published_date": "October 4, 2023",
         "reading_time": "5 minutes",
         "content": "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
+        "popular":"no",
         "tags": ["Blogging", "Writing"]
     },
     {
@@ -1030,6 +1115,7 @@
         "published_date": "October 4, 2023",
         "reading_time": "4 minutes",
         "content": "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
+        "popular":"no",
         "tags": ["Work", "Blogging"]
     }
     
