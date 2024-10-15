@@ -68,6 +68,20 @@
         
             "tags": ["Apps", "Writing"]
         },
+        
+    {
+        "id": 82,
+        "title": "5 Legal K-Dramas To Watch If You Can't Get Over Good Partner",
+        "image": "https://6.soompi.io/wp-content/uploads/image/20241010164424_collage2.jpg?s=900x600&e=t",
+        "category": "Startups",
+        "author": "Sophie Alcorn",
+        "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
+        "published_date": "October 4, 2023",
+        "reading_time": "4 minutes",
+        "content": "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
+        "popular":"yes",
+        "tags": ["Work", "Blogging"]
+    },
         {
             "id": 17,
             "title": "Make these 5 changes to avoid becoming the next cybersecurity headline",
@@ -1091,19 +1105,6 @@
         "content": "The San Francisco Police Department is investigating an October 2 incident that left a woman stuck underneath a Cruise robotaxi after being hit by a human-driven vehicle. Video captured by Cruise a...",
         "popular":"no",
         "tags": ["Startups", "Writing"]
-    },
-    {
-        "id": 82,
-        "title": "5 Legal K-Dramas To Watch If You Can't Get Over Good Partner",
-        "image": "https://6.soompi.io/wp-content/uploads/image/20241010164424_collage2.jpg?s=900x600&e=t",
-        "category": "Startups",
-        "author": "Sophie Alcorn",
-        "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
-        "published_date": "October 4, 2023",
-        "reading_time": "4 minutes",
-        "content": "It is time for Congress to raise the numerical caps and eliminate the country-of-birth caps!",
-        "popular":"yes",
-        "tags": ["Work", "Blogging"]
     }
     
 ]}
