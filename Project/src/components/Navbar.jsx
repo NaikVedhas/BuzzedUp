@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <header className='  flex justify-center items-center px-3 py-6 max-w-full mx-auto bg-black text-white'>
       <div className='my-4 mr-60 '>
-        <Link to='/'>My Logo</Link>
+        <Link className='italic text-3xl ' to='/'>Buzzed<b className='text-orange-500'>Up</b></Link>
       </div>
       <ul className='my-4 mx-20 flex gap-6 italic item-center'>
         <li className='hover:text-orange-500' ><Link to='/'>Home</Link></li>
