@@ -10,6 +10,7 @@ import Layout from '../Layout';
 import Home from './components/Home'
 import BlogDetails from './components/BlogDetails';
 import Profile from './components/Profile';
+import NotFound from './components/NotFound';
 
 
 const router = createBrowserRouter(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route path='blogs/' element={<Blogs/>}/>
       <Route path='blogs/:id' element={<BlogDetails/>} />
       <Route path='profile/:id' element={<Profile />} />
+      <Route path='*' element={<NotFound/>} />
 
     </Route>
   )
