@@ -19,7 +19,7 @@ function ContactUs() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // Replace this with your form handling logic
+   
     setFormSubmitted(true);
   };
 
