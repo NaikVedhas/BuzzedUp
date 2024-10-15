@@ -11,8 +11,21 @@
             "reading_time": "6 minutes",
             "content": "Mainstream social media platforms could face limits on their ability to take down independent journalism that violates their terms and conditions under a proposal agreed by European Union lawmakers...",
             "popular":"no",
-        
+            
             "tags": ["Apps", "Writing"]
+        },
+        {
+            "id": 60,
+            "title": "2024 MAMA Awards Announces 1st Lineup Of Performers",
+            "image": "https://6.soompi.io/wp-content/uploads/image/20241015025009_mama.jpg?s=900x600&e=t",
+            "category": "Work",
+            "author": "Sophie Alcorn",
+            "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
+            "published_date": "October 4, 2023",
+            "reading_time": "4 minutes",
+            "content": "The 2024 MAMA Awards has begun to reveal its star-studded lineup of performers! On October 15, the 2024 MAMA Awards announced its first lineup of performers consisting of aespa, ENHYPEN, ILLIT, INI, IVE, KATSEYE, RIIZE, TXT, and ZEROBASEONE.",
+            "popular":"yes",
+            "tags": ["Work", "Blogging"]
         },
         {
             "id": 1,
@@ -33,7 +46,7 @@
             "title": "Adapting to a world with higher interest rates — a guide for startups",
             "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-109439584.jpg?w=430&h=230&crop=1",
             "category": "Work",
-            "author": "Mohit Agarwal",
+            "author": "Mary Ann Azevedo",
             "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
             "published_date": "2023-10-01",
             "reading_time": "6 minutes",
@@ -46,7 +59,7 @@
             "title": "Bard vs ChatGPT: Which is better for coding?",
             "image": "https://www.pluralsight.com/content/dam/ps/images/resource-center/blog/header-hero-images/ChatGPT-vs-Bard-c.png",
             "category": "Apps",
-            "author": "Rebecca Bellan",
+            "author": "Darrell Etherington",
             "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
             "published_date": "2023-10-01",
             "reading_time": "6 minutes",
@@ -60,7 +73,7 @@
             "title": "Make these 5 changes to avoid becoming the next cybersecurity headline",
             "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1455969376.jpg?w=430&h=230&crop=1",
             "category": "Work",
-            "author": "Jim Broome",
+            "author": "Darrell Etherington",
             "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
             "published_date": "2023-10-01",
             "reading_time": "6 minutes",
@@ -110,19 +123,6 @@
         "popular":"no",
         
         "tags": ["Fintech", "Writing"]
-    },
-    {
-        "id": 60,
-        "title": "2024 MAMA Awards Announces 1st Lineup Of Performers",
-        "image": "https://6.soompi.io/wp-content/uploads/image/20241015025009_mama.jpg?s=900x600&e=t",
-        "category": "Work",
-        "author": "Sophie Alcorn",
-        "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
-        "published_date": "October 4, 2023",
-        "reading_time": "4 minutes",
-        "content": "The 2024 MAMA Awards has begun to reveal its star-studded lineup of performers! On October 15, the 2024 MAMA Awards announced its first lineup of performers consisting of aespa, ENHYPEN, ILLIT, INI, IVE, KATSEYE, RIIZE, TXT, and ZEROBASEONE.",
-        "popular":"yes",
-        "tags": ["Work", "Blogging"]
     },
     {
         "id": 5,
