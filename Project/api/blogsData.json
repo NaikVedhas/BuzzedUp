@@ -10,7 +10,7 @@
             "published_date": "October 4, 2023",
             "reading_time": "5 minutes",
             "content": "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
-            "popular":"no",
+            "popular":"yes",
 
             "tags": ["Blogging", "Writing"]
         },
@@ -795,14 +795,14 @@
     },
     {
         "id": 59,
-        "title": "Meta debuts generative AI features for advertisers",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/meta-gen-ai-ads.jpg?w=430&h=230&crop=1",
+        "title": "Bitcoin Rises again",
+        "image": "https://embed.coindesk.com/zGNqPGWmfLTmp/image.png",
         "category": "AI",
         "author": "Sarah Perez",
         "authorPic": "https://media.istockphoto.com/id/1289220781/photo/portrait-of-happy-smiling-woman-at-desk.webp?a=1&b=1&s=612x612&w=0&k=20&c=2_BfCpHSsS2Pz_XYrpDVGg6ZOM2Vd8z0zllwwqjKLCo=",
         "published_date": "October 4, 2023",
         "reading_time": "5 minutes",
-        "content": "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
+        "content": "Yesterday was a very special day for the Bitcoin ETF market, as it saw a massive inflow of $555.90 million. Notably, on the same day, the price of Bitcoin jumped from $62,890 to $66,082, marking an impressive surge of nearly 5.07%. Was this a casual coincidence? Not many believe so. ",
         "popular":"no",
         "tags": ["Blogging", "Writing"]
     },
@@ -1094,19 +1094,6 @@
     },
     {
         "id": 82,
-        "title": "Meta debuts generative AI features for advertisers",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/meta-gen-ai-ads.jpg?w=430&h=230&crop=1",
-        "category": "Security",
-        "author": "Sarah Perez",
-        "authorPic": "https://media.istockphoto.com/id/1289220781/photo/portrait-of-happy-smiling-woman-at-desk.webp?a=1&b=1&s=612x612&w=0&k=20&c=2_BfCpHSsS2Pz_XYrpDVGg6ZOM2Vd8z0zllwwqjKLCo=",
-        "published_date": "October 4, 2023",
-        "reading_time": "5 minutes",
-        "content": "Meta announced today it is rolling out its first generative AI features for advertisers, allowing them to use AI to create backgrounds, expand images, and generate multiple versions of ad text...",
-        "popular":"no",
-        "tags": ["Blogging", "Writing"]
-    },
-    {
-        "id": 83,
         "title": "Ask Sophie: What are the options for replacing an L-1A visa?",
         "image": "https://techcrunch.com/wp-content/uploads/2021/01/dear-sophie-immigration-maze-3.jpg?w=430&h=230&crop=1",
         "category": "Startups",
