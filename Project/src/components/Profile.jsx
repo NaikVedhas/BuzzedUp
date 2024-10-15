@@ -22,7 +22,7 @@ const Profile = () => {
           {/* Circular Profile Image */}
           <div className="mb-6 relative">
             <img
-              src="https://i.ytimg.com/vi/TO3z3wQENPw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDFcJwZK6bNmJ8G0gx281_dY3I8kw"
+              src={data.authorPic}
               alt="Author"
               className="w-60 h-60 rounded-full object-cover shadow-lg"
             />

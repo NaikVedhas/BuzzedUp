@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header className='flex justify-between items-center px-3 py-4 max-w-full mx-auto bg-black text-white sticky top-0 z-50 shadow-md'>
 
-      <div className='my-4 mr-60'>
+      <div className='my-8 mr-60'>
         <Link className='italic text-3xl' to='/'>Buzzed<b className='text-orange-500'>Up</b></Link>
       </div>
       <ul className='my-4 mx-20 flex gap-6 italic items-center'>
