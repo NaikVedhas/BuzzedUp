@@ -99,8 +99,8 @@
     },
     {
         "id": 8,
-        "title": "Okta plans to weave AI across its entire identity platform using multiple models",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1350618660.jpg?w=430&h=230&crop=1",
+        "title": "AI Hype Drives Demand For ML SecOps Skills",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfd06af8af256e09b/6709a18bb40de2271b260b60/Skills-gap-1800_designer491_Alamy.jpg?disable=upscale&width=1200&height=630&fit=crop",
         "category": "Security",
         "author": "Ron Miller",
         "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
@@ -239,14 +239,14 @@
     },
     {
         "id": 18,
-        "title": "Make these 5 changes to avoid becoming the next cybersecurity headline",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1455969376.jpg?w=430&h=230&crop=1",
+        "title": "Bard vs ChatGPT: Which is better for coding?",
+        "image": "https://www.pluralsight.com/content/dam/ps/images/resource-center/blog/header-hero-images/ChatGPT-vs-Bard-c.png",
         "category": "Apps",
         "author": "Rebecca Bellan",
         "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
-        "content": "Uber is expanding its peer-to-peer package delivery service, Uber Connect. Now, customers who don’t want to schlep a package to the post office can request an Uber courier to do it for them w...",
+        "content": "Both models were trained on a massive dataset, including Common Crawl, Wikipedia, books, articles, documents, and content scraped from the internet. However, Bard is a little different in that it was trained on conversations and dialogues from the web, while ChatGPT was trained mostly on scraped general content.",
         "popular":"no",
 
         "tags": ["Apps", "Writing"]
@@ -821,8 +821,8 @@
     },
     {
         "id": 61,
-        "title": "Making wearable medical devices more patient-friendly with Professor Esther Rodriguez-Villegas from Acurable",
-        "image": "https://techcrunch.com/wp-content/uploads/2022/05/found-2022-featured.jpg?w=430&h=230&crop=1",
+        "title": "Southeast Asian Cybercrime Profits Fuel Shadow Economy",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltca3de8d99c5b6037/66687feff311eb30adf48c34/End_ru99-southeast-asia-map-shutterstock.jpg?disable=upscale&width=1200&height=630&fit=crop",
         "category": "Health",
         "author": "Darrell Etherington",
         "authorPic": "https://media.istockphoto.com/id/691910449/photo/smiling-businessman-with-smart-phone-and-cup.webp?a=1&b=1&s=612x612&w=0&k=20&c=4g8_koK4qaYir6GjfiQXDe3lN2YuM83R4lF8ehUxG3Q=",
@@ -834,8 +834,8 @@
     },
     {
         "id": 62,
-        "title": "Rainforest raises $8.5M to help software companies embed financial services, payments",
-        "image": "https://techcrunch.com/wp-content/uploads/2015/02/shutterstock_128451140.jpg?w=430&h=230&crop=1",
+        "title": "Pokémon Gaming Company Employee Info Leaked in Hack",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt43b414d7dacd498f/670d7dcdd851ded352743760/pokemon1800_Maximum_Film_alamy.jpg?disable=upscale&width=1200&height=630&fit=crop",
         "category": "Fintech",
         "author": "Mary Ann Azevedo",
         "authorPic": "https://media.istockphoto.com/id/691910455/photo/smiling-businessman-with-brown-bag-walking-in-city.webp?a=1&b=1&s=612x612&w=0&k=20&c=G_H1Nky6uiC1dc1rmtOQmviFUGLyhY10zQ_YKDZhPH4=",
@@ -977,15 +977,15 @@
     },
     {
         "id": 73,
-        "title": "Opsera, a DevOps platform geared toward enterprises, raises $12M",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1439425791-1.jpg?w=430&h=230&crop=1",
+        "title": "The Invisible Army of Non-Human Identities",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7484fd287dfc87c6/67092b3251a9410858f7f21d/Robot(1800)_Brain_light_Alamy.jpg?disable=upscale&width=1200&height=630&fit=crop",
         "category": "Startups",
         "author": "Kyle Wiggers",
         "authorPic": "https://i.pinimg.com/736x/10/d4/ba/10d4ba2b56d7fb13e777d1b37c336451.jpg",
         "published_date": "2023-10-01",
         "reading_time": "6 minutes",
         "content": "Opsera, a DevOps platform geared toward enterprise clients, today announced that it raised $12 million in a funding round — a tranche smaller than Opsera’s previous — led by Taiwa...",
-        "popular":"no",
+        "popular":"yes",
         "tags": ["Apps", "Writing"]
     },
     {
@@ -1003,8 +1003,8 @@
     },
     {
         "id": 75,
-        "title": "Make these 5 changes to avoid becoming the next cybersecurity headline",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1455969376.jpg?w=430&h=230&crop=1",
+        "title": "Microsoft: Schools Grapple With Thousands of Cyberattacks Weekly",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt16507cf4394f36ad/670d617db42fa0152c82a1fd/education1800_SeventyFour_Images_alamy.jpg?disable=upscale&width=1200&height=630&fit=crop",
         "category": "Work",
         "author": "Jim Broome",
         "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
@@ -1016,8 +1016,8 @@
     },
     {
         "id": 76,
-        "title": "Make these 5 changes to avoid becoming the next cybersecurity headline",
-        "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1455969376.jpg?w=430&h=230&crop=1",
+        "title": "Why Your Identity Is the Key to Modernizing Cybersecurity",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3a6666edd2172545/670d1b558bded7ca832898a1/Identity(1800)_Brian_Jackson_Alamy.jpg?disable=upscale&width=1200&height=630&fit=crop",
         "category": "Apps",
         "author": "Rebecca Bellan",
         "authorPic": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
