@@ -21,7 +21,7 @@ const useFetch = (url) => {
             return res.json();
         })
         .then(data =>{
-            setData(data);
+            setData(data.record.blogs);
             setIsLoading(false);
             setError(null);
 
@@ -29,7 +29,7 @@ const useFetch = (url) => {
         .catch(e =>{
             setIsLoading(false);
             setError(e.message);
-            console.log("ndiwgd");
+            console.log("Efeferg");
             
         });
 

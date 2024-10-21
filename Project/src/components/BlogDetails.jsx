@@ -5,14 +5,14 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00/${id}`);
-  const { data:fulldata, error:fullerror, isLoading:fulllisLoading } = useFetch(`http://localhost:3000/blogs`);
+  const { data:fulldata, error:fullerror, isLoading:fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00`);
   
   const populardata = fulldata ? fulldata.filter((d) => d.popular === "yes" && d.id!==id ) : [];
+  const data = fulldata ? fulldata.find((d) => d.id === Number(id)) : null;
 
+  
 
-
-  if(!data.id){
+  if(!data){
     return (
       <div className=' bg-black text-white min-h-screen '>
       <h1 className='text-9xl italic flex justify-center '>No Blog found </h1>
@@ -23,10 +23,10 @@ const BlogDetails = () => {
   return (
     <div>
     <div className="flex justify-center items-center min-h-screen">  
-      {isLoading && <h1>Loading...</h1>}
-      {error && <h1>{error}</h1>}
+      {fulllisLoading && <h1>Loading...</h1>}
+      {fullerror && <h1>{fullerror}</h1>}
       
-      {data.id && (
+      {data && (
         <div className="bg-white rounded-lg shadow-xl p-8 w-2/3 ">  
           <img src={data.image} alt="img" className="rounded-md w-full mb-4" />
           <h1 className="text-3xl font-bold mb-4 ">{data.title}</h1>  

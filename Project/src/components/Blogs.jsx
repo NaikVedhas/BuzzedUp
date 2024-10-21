@@ -6,13 +6,11 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 
 function Blogs() {
   const [category, setCategory] = useState('');
-  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00/record/blogs/`);
+  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00`);
 
   const categoryarr = ['All', 'AI', 'Work', 'Health', 'Fintech', 'Startups', 'Security', 'Enterprise'];
 
-  useEffect(() => {
-    setUrl(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00/blogs?category=` + category);
-  }, [category]);
+ 
 
   const handleCategory = (c) => {
     if (c === 'All') {
@@ -24,6 +22,10 @@ function Blogs() {
 
   const { data, error, isLoading } = useFetch(url);
   const populardata = data ? data.filter((d) => d.popular === "yes") : [];
+
+  const filteredData = category          //We perofmed filter on clinet side because api doesnt provide that functionality 
+  ? data.filter((d) => d.category === category) // Filtering the data locally
+  : data; // Show all data if category is not selected
 
   return (
     <>
@@ -47,7 +49,7 @@ function Blogs() {
         <div className="w-3/4">
           {isLoading && <h1 className="text-orange-500 text-5xl text-center">Loading...</h1>}
           {error && <h1 className="text-red-500 text-3xl text-center">{error}</h1>}
-          {data && <BlogCard data={data} />}
+          {filteredData && <BlogCard data={filteredData} />}
         </div>
 
         {/* Popular section */}
