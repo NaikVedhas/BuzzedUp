@@ -5,7 +5,7 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data, error, isLoading } = useFetch(`http://localhost:3000/blogs/${id}`);
+  const { data, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00/${id}`);
   const { data:fulldata, error:fullerror, isLoading:fulllisLoading } = useFetch(`http://localhost:3000/blogs`);
   
   const populardata = fulldata ? fulldata.filter((d) => d.popular === "yes" && d.id!==id ) : [];

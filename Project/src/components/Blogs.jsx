@@ -6,12 +6,12 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 
 function Blogs() {
   const [category, setCategory] = useState('');
-  const [url, setUrl] = useState(`http://localhost:3000/blogs`);
+  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00/record/blogs/`);
 
   const categoryarr = ['All', 'AI', 'Work', 'Health', 'Fintech', 'Startups', 'Security', 'Enterprise'];
 
   useEffect(() => {
-    setUrl(`http://localhost:3000/blogs?category=` + category);
+    setUrl(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00/blogs?category=` + category);
   }, [category]);
 
   const handleCategory = (c) => {
