@@ -6,17 +6,19 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 
 const Profile = () => {
   const { id } = useParams();
-  const { data, error, isLoading } = useFetch(`http://localhost:3000/blogs/${id}`);
-  const { data: fulldata, error: fullerror, isLoading: fulllisLoading } = useFetch(`http://localhost:3000/blogs`);
+  const { data: fulldata, error: fullerror, isLoading: fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00`);
+
+
+  const data = fulldata ? fulldata.find((d) => d.id === Number(id)) : null;
 
   const artistBlog = fulldata ? fulldata.filter((d) => d.author === data.author) : [];
 
-  const popularStatus = data.popular;
+  const popularStatus = data ? data.popular : null;
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center">
-      {isLoading && <h1>Loading...</h1>}
-      {error && <h1>{error}</h1>}
+      {fulllisLoading && <h1>Loading...</h1>}
+      {fullerror && <h1>{fullerror}</h1>}
       {data && (
         <div className="w-full flex flex-col items-center p-8 relative">
           {/* Circular Profile Image */}

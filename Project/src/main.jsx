@@ -6,7 +6,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Blogs from './components/Blogs';
-import Layout from '../Layout';
+import Layout from './Layout';
 import Home from './components/Home'
 import BlogDetails from './components/BlogDetails';
 import Profile from './components/Profile';
