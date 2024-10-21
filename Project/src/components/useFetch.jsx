@@ -5,7 +5,6 @@ const useFetch = (url) => {
     const [data,setData] = useState([]);
     const [isLoading,setIsLoading] = useState(true);
     const [error,setError] = useState(null);
-    console.log(import.meta.env.VITE_API_KEY);
     
     useEffect(()=>{
 
