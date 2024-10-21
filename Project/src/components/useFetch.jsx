@@ -11,7 +11,7 @@ const useFetch = (url) => {
         fetch(url,{
             headers:{
                 "Content-Type": "application/json",
-                "X-Master-Key":`$2a$10$jSm4Ms/vFDxiVM/wT058lOLSC2R/t1gA8j8Dohz9K5BhledMXKHQ6`
+                "X-Master-Key": import.meta.env.VITE_API_KEY
             }
         })
         .then(res =>{
