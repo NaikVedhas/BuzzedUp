@@ -1,4 +1,4 @@
-# 🚀 BuzzedUp
+# 🚀 <i>BuzzedUp</i>
 
 Welcome to **BuzzedUp**, a dynamic web application built with React that brings together writers and readers in a seamless experience. 
 
@@ -15,17 +15,17 @@ Join us in fostering a community of knowledge and creativity through engaging bl
 
 - ![React](https://img.icons8.com/color/48/000000/react-native.png) **React**: A JavaScript library for building user interfaces.
 - ![Tailwind CSS](https://img.icons8.com/color/48/000000/tailwindcss.png) **Tailwind CSS**: A utility-first CSS framework for styling.
-- ![React Icons](https://img.icons8.com/color/48/000000/react-native.png) **React Icons**: A library for including icons in React applications.
+
 
 ## 🖼️ Images
 
 Here are some images from the project:
 
-1. ![Image 1](https://drive.google.com/uc?id=1nTRECUVFupnZgmcqsoEn1NQUJo8Y2DCt)
-2. ![Image 2](https://drive.google.com/uc?id=1eUpEZdYsTFc5l6ZSGRikAQNiJ-fJlHXO)
-3. ![Image 3](https://drive.google.com/uc?id=1OH1n16l0YJTfhumdS6p5OVzaNOPv4qwc)
-4. ![Image 4](https://drive.google.com/uc?id=1lv38YrDE5c0FLlPNWKIKBZItlB39oX6D)
-5. ![Image 5](https://drive.google.com/uc?id=1reBK6EVhnvKTsn2QavBkFmMtVQizUrg2)
+2. ![Image 1](https://drive.google.com/uc?id=1eUpEZdYsTFc5l6ZSGRikAQNiJ-fJlHXO)
+3. ![Image 2](https://drive.google.com/uc?id=1OH1n16l0YJTfhumdS6p5OVzaNOPv4qwc)
+5. ![Image 3](https://drive.google.com/uc?id=1reBK6EVhnvKTsn2QavBkFmMtVQizUrg2)
+1. ![Image 4](https://drive.google.com/uc?id=1nTRECUVFupnZgmcqsoEn1NQUJo8Y2DCt)
+4. ![Image 5](https://drive.google.com/uc?id=1lv38YrDE5c0FLlPNWKIKBZItlB39oX6D)
 
 ## 🚀 Getting Started
 
