@@ -5,13 +5,14 @@ const useFetch = (url) => {
     const [data,setData] = useState([]);
     const [isLoading,setIsLoading] = useState(true);
     const [error,setError] = useState(null);
- 
+    console.log(import.meta.env.VITE_API_KEY);
+    
     useEffect(()=>{
 
         fetch(url,{
             headers:{
                 "Content-Type": "application/json",
-                "X-Master-Key": import.meta.env.VITE_API_KEY
+                "X-Master-Key": `$2a$10$jSm4Ms${import.meta.env.VITE_API_KEY}`
             }
         })
         .then(res =>{
