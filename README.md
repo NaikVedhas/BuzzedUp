@@ -21,7 +21,7 @@ Join us in fostering a community of knowledge and creativity through engaging bl
 
 Here are some images from the project:
 
-2. ![Image 1](https://drive.google.com/uc?id=1eUpEZdYsTFc5l6ZSGRikAQNiJ-fJlHXO)
+2. ![Image 1](https://drive.google.com/file/d/1zhlP7IM1ECJQAxCLwVAgQrqTUnUBwJvn/view?usp=sharing)
 3. ![Image 2](https://drive.google.com/uc?id=1OH1n16l0YJTfhumdS6p5OVzaNOPv4qwc)
 5. ![Image 3](https://drive.google.com/uc?id=1reBK6EVhnvKTsn2QavBkFmMtVQizUrg2)
 1. ![Image 4](https://drive.google.com/uc?id=1nTRECUVFupnZgmcqsoEn1NQUJo8Y2DCt)
