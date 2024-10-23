@@ -21,11 +21,12 @@ Join us in fostering a community of knowledge and creativity through engaging bl
 
 Here are some images from the project:
 
-2. ![Image 1](https://drive.google.com/file/d/1zhlP7IM1ECJQAxCLwVAgQrqTUnUBwJvn/view?usp=drive_link)
-3. ![Image 2](https://drive.google.com/uc?id=1OH1n16l0YJTfhumdS6p5OVzaNOPv4qwc)
-5. ![Image 3](https://drive.google.com/uc?id=1reBK6EVhnvKTsn2QavBkFmMtVQizUrg2)
-1. ![Image 4](https://drive.google.com/uc?id=1nTRECUVFupnZgmcqsoEn1NQUJo8Y2DCt)
-4. ![Image 5](https://drive.google.com/uc?id=1lv38YrDE5c0FLlPNWKIKBZItlB39oX6D)
+2. ![Image 1](https://drive.google.com/uc?export=view&id=1zhlP7IM1ECJQAxCLwVAgQrqTUnUBwJvn)
+3. ![Image 2](https://drive.google.com/uc?export=view&id=1_fBobuHFHAhLPyG1soQ3Fxfxv4Ge6wrg)
+5. ![Image 3](https://drive.google.com/uc?export=view&id=169rLe3GsIl3RXKg3WLfLwQVrjdN6wN-9)
+1. ![Image 4](https://drive.google.com/uc?export=view&id=1hjpNEXsBbqD6k6ZA0uE6psSmu5rlCjR6)
+4. ![Image 5](https://drive.google.com/uc?export=view&id=1AjbxP7OX9kmUlkIqKyBu4KHhGHbMk8AB)
+
 
 ## 🚀 Getting Started
 
