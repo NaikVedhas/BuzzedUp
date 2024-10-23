@@ -21,7 +21,7 @@ function Blogs() {
     }
   };
 
-  const { blogsData,authorData, error, isLoading } = useFetch(url);
+  const { blogsData, error, isLoading } = useFetch(url);
   const populardata = blogsData ? blogsData.filter((d) => d.popular === "yes") : [];
 
   const filteredData = category          //We perofmed filter on clinet side because api doesnt provide that functionality 
@@ -52,7 +52,7 @@ function Blogs() {
               <AiOutlineLoading3Quarters className="text-orange-500 animate-spin text-8xl" />
             </div>)}
           {error && <h1 className="text-red-500 text-3xl text-center">{error}</h1>}
-          {filteredData && <BlogCard data={filteredData} authorData={authorData} />}
+          {filteredData && <BlogCard data={filteredData} />}
         </div>
 
         {/* Popular section */}

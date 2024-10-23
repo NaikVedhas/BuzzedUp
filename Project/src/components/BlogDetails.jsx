@@ -36,7 +36,7 @@ const BlogDetails = () => {
               <BsClockFill className="mr-2" />
               {data.reading_time}
             </p>
-            <Link to={`/profile/${data.id}`} className="hover:text-orange-500">
+            <Link to={`/profile/${data.authorid}`} className="hover:text-orange-500">
               Written by: {data.author}
             </Link>
           </div>

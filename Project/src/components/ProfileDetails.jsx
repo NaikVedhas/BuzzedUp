@@ -18,8 +18,8 @@ const Profile = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center">
-      {fulllisLoading && (<div className="flex justify-center items-center">
-              <AiOutlineLoading3Quarters className="text-orange-500 animate-spin text-8xl" />
+      {fulllisLoading && (<div className="flex justify-center mt-48 items-center">
+              <AiOutlineLoading3Quarters className="text-orange-500  animate-spin text-8xl" />
             </div>)}
       {fullerror && <h1>{fullerror}</h1>}
       {data && (
@@ -41,7 +41,7 @@ const Profile = () => {
 
           {/* Author Information */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold mb-2">{data.author}</h1>
+            <h1 className="text-4xl font-bold mb-2">{data.name}</h1>
             <div className="flex justify-center space-x-4 mt-2">
               <a href="https://www.instagram.com/" target="_blank">
                 <FaSquareInstagram size={28} />
