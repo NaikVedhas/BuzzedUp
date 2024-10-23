@@ -7,7 +7,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 function Blogs() {
   const [category, setCategory] = useState('');
-  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00`);
+  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/67192f1aad19ca34f8bd6629`);
 
   const categoryarr = ['All', 'AI', 'Work', 'Health', 'Fintech', 'Startups', 'Security', 'Enterprise'];
 

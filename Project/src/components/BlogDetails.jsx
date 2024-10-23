@@ -6,7 +6,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data:fulldata, error:fullerror, isLoading:fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00`);
+  const { data:fulldata, error:fullerror, isLoading:fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/67192f1aad19ca34f8bd6629`);
   
   const populardata = fulldata ? fulldata.filter((d) => d.popular === "yes" && d.id!==id ) : [];
   const data = fulldata ? fulldata.find((d) => d.id === Number(id)) : null;

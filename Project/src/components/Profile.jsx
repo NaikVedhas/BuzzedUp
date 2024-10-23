@@ -3,7 +3,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
-    const { data, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00`);
+    const { data, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/67192f1aad19ca34f8bd6629`);
 
     const uniqueAuthors = data
         ? data.map(blog => ({ author: blog.author, authorPic: blog.authorPic, popularStatus: blog.popular,id:blog.id }))

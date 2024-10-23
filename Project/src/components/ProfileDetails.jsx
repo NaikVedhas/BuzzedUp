@@ -8,7 +8,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const Profile = () => {
   const { id } = useParams();
-  const { data: fulldata, error: fullerror, isLoading: fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/671696eaacd3cb34a89abb00`);
+  const { data: fulldata, error: fullerror, isLoading: fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/67192f1aad19ca34f8bd6629`);
 
 
   const data = fulldata ? fulldata.find((d) => d.id === Number(id)) : null;
