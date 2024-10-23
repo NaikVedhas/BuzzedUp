@@ -1107,4 +1107,129 @@
         "tags": ["Startups", "Writing"]
     }
     
-]}
+],
+
+    "authors":[
+        {
+            "name":"Natasha Lomas",
+            "authorid":1,
+            "authorPic":"https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/06/08/4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?itok=UM5zeMi-&v=1591589877",
+            "popular":"no"
+        },
+        {
+            "name":"Sarah Perez",
+            "authorid":2,
+            "authorPic":"https://media.istockphoto.com/id/1289220781/photo/portrait-of-happy-smiling-woman-at-desk.webp?a=1&b=1&s=612x612&w=0&k=20&c=2_BfCpHSsS2Pz_XYrpDVGg6ZOM2Vd8z0zllwwqjKLCo=",
+            "popular":"yes"
+        },
+        {
+            "name":"Ron Miller",
+            "authorid":3,
+            "authorPic":"https://media.istockphoto.com/id/1478316046/photo/portrait-of-high-school-teacher-at-school-library.jpg?s=612x612&w=0&k=20&c=sSU4PQgVZXW6jiddn8YcB3s2F_Vge5RekkWBlMiUKuU=",
+            "popular":"yes"
+        },
+        {
+            "name":"Sophie Alcorn",
+            "authorid":4,
+            "authorPic":"https://media.istockphoto.com/id/1370433251/photo/black-woman-sitting-at-desk-using-computer-writing-in-notebook.jpg?s=612x612&w=0&k=20&c=rHpy3cX4LVFtzLI4gyy0T-fNYdTeAcdNQgTmy9maAIA=",
+            "popular":"no"
+        },
+        {
+            "name":"Mary Ann Azevedo",
+            "authorid":5,
+            "authorPic":"https://media.istockphoto.com/id/1188672563/photo/asian-young-student-doing-homework-in-library-of-university.jpg?s=612x612&w=0&k=20&c=hsHZTXZI9Wz-5tVmhVvK6jW7Jij7js8vw0levMNc8sU=",
+            "popular":"no"
+        },
+        {
+            "name":"Darrell Etherington",
+            "authorid":6,
+            "authorPic":"https://media.istockphoto.com/id/1325465927/photo/asian-student-studying-e-learning-online-education-concept-portrait-of-handsome-indian.jpg?s=612x612&w=0&k=20&c=NYDMPPmzvay5bJo7Yn8cU0k3hjBHhBQGESLzF7kDB30=",
+            "popular":"yes"
+        },
+        {
+            "name":"Christine Hall",
+            "authorid":7,
+            "authorPic":"https://wallpapercave.com/wp/wp11470795.jpg",
+            "popular":"yes"
+        },
+        {
+            "name":"Kyle Wiggers",
+            "authorid":8,
+            "authorPic":"https://i.pinimg.com/736x/10/d4/ba/10d4ba2b56d7fb13e777d1b37c336451.jpg",
+            "popular":"yes"
+        },
+        {
+            "name":"Frederic Lardinois",
+            "authorid":9,
+            "authorPic":"https://media.istockphoto.com/id/1341347262/photo/portrait-smiling-african-american-businessman-in-blue-suit-sit-at-table-for-meeting-in-office.jpg?s=612x612&w=0&k=20&c=Gb1cE6mv7uT4rkWHqdC-9il3XB_gFIIcx8Y8iELvaus=",
+            "popular":"no"
+        },
+        {
+            "name":"Neesha A. Tambe",
+            "authorid":10,
+            "authorPic":"https://media.istockphoto.com/id/1355788665/photo/teenage-girl-doing-homework-at-home-stock-photo.jpg?s=612x612&w=0&k=20&c=cX7om8OfEawdjUXYxeZoUivt9qLUEswStzJU9KY6egE=",
+            "popular":"no"
+        },
+        {
+            "name":"Ivan Mehta",
+            "authorid":11,
+            "authorPic":"https://media.istockphoto.com/id/1431476029/photo/well-suited-lawyer-signing-on-his-desk.jpg?s=612x612&w=0&k=20&c=lUZ9WnRSWev8Zgs4DbG2rJ1hjQ3SrtvB2csIYOrhVeY=",
+            "popular":"no"
+        },
+        {
+            "name":"Aisha Malik",
+            "authorid":12,
+            "authorPic":"https://media.istockphoto.com/id/1222731173/photo/cheerful-businesswoman-in-her-30s-with-paperwork.jpg?s=612x612&w=0&k=20&c=pMsG6292VDYLIuRL0uVkOOuK_a3qtLyWh8sdsdxWlY4=",
+            "popular":"no"
+        },
+        {
+            "name":"Mike Butcher",
+            "authorid":13,
+            "authorPic":"https://media.istockphoto.com/id/1415537841/photo/asian-graphic-designer-working-in-office-artist-creative-designer-illustrator-graphic-skill.jpg?s=612x612&w=0&k=20&c=Cot30JpGiYsAA0SdsNtusecbHTKu_fyMBi1BT5i8GyY=",
+            "popular":"yes"
+        },
+        {
+            "name":"Jagmeet Singh",
+            "authorid":14,
+            "authorPic":"https://media.istockphoto.com/id/923681548/photo/studio-portrait-of-elegant-man-dark-background.jpg?s=612x612&w=0&k=20&c=GyoLTgV7-xtU4oXQkTSau1xiwnv3i7_yuZDrGGaiMKs=",
+            "popular":"yes"
+        },
+        {
+            "name":"Rebecca Bellan",
+            "authorid":15,
+            "authorPic":"https://media.istockphoto.com/id/1249424412/photo/smiling-young-brunette-woman-girl-in-yellow-sweater-posing-isolated-on-pastel-pink-wall.jpg?s=612x612&w=0&k=20&c=-53sILC3dHWRM-9OJPcmgzl6YJodQ_dhwEq8vEDzkIs=",
+            "popular":"no"
+        },
+        {
+            "name":"Tim De Chant",
+            "authorid":16,
+            "authorPic":"https://media.istockphoto.com/id/1175512296/photo/happy-asian-woman-smiling-with-hand-on-chin.jpg?s=612x612&w=0&k=20&c=s7QyAa_0QJ4SvbknYkzGT1t4sD36G90eiB6NCc4r7lg=",
+            "popular":"yes"
+        },
+        {
+            "name":"Carly Page",
+            "authorid":17,
+            "authorPic":"https://media.istockphoto.com/id/1382808763/photo/a-young-woman-with-glasses-and-a-serious-expression.jpg?s=612x612&w=0&k=20&c=RrxT1djUhSlQhfs7Qr2BQkMjjEnUQw-MJVjiZziNDWE=",
+            "popular":"no"
+        },
+        {
+            "name":"Mohit Agarwal",
+            "authorid":18,
+            "authorPic":"https://media.istockphoto.com/id/1171169099/photo/man-with-crossed-arms-isolated-on-gray-background.jpg?s=612x612&w=0&k=20&c=_vETAeGc6ooeOx-WZYFyZdUUL5hyDPrvakBpjytN7lM=",
+            "popular":"no"
+        },
+        {
+            "name":"Brian Heater",
+            "authorid":19,
+            "authorPic":"https://media.istockphoto.com/id/1323167284/photo/young-successful-indian-man-wearing-stylish-eyeglasses-standing-on-the-street-handsome-asian.jpg?s=612x612&w=0&k=20&c=gqsmYkDUEw5kQpuDvlFbkIGDy2-ISB6yK9zGe7rKlBI=",
+            "popular":"yes"
+        },
+        {
+            "name":"Jim Broome",
+            "authorid":20,
+            "authorPic":"https://media.istockphoto.com/id/656677944/photo/business-dude-on-stool.jpg?s=612x612&w=0&k=20&c=9Ch2I6eP8C50twYa9AeqmdFBtRFUHi7qlPunCHpodBc=",
+            "popular":"no"
+        }
+
+    ]
+}

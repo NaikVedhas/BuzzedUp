@@ -8,14 +8,13 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const Profile = () => {
   const { id } = useParams();
-  const { data: fulldata, error: fullerror, isLoading: fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/67192f1aad19ca34f8bd6629`);
+  const { blogsData,authorData: fulldata, error: fullerror, isLoading: fulllisLoading } = useFetch(`https://api.jsonbin.io/v3/b/671939c9e41b4d34e447aac0`);
 
 
-  const data = fulldata ? fulldata.find((d) => d.id === Number(id)) : null;
+  const data = fulldata ? fulldata.find((d) => d.authorid === Number(id)) : null;
 
-  const artistBlog = fulldata ? fulldata.filter((d) => d.author === data.author) : [];
+  const artistBlog = blogsData ? blogsData.filter((d) => d.author === data.name) : [];
 
-  const popularStatus = data ? data.popular : null;
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center">
@@ -33,7 +32,7 @@ const Profile = () => {
               className="w-60 h-60 rounded-full object-cover shadow-lg"
             />
 
-            {popularStatus === "yes" && (
+            {data.popular === "yes" && (
               <div className="absolute top-0 right-0 bg-orange-500 text-white text-sm font-bold px-4 py-1 rounded-full animate-pulse shadow-lg glow">
                 Popular
               </div>
@@ -69,7 +68,7 @@ const Profile = () => {
                 ? artistBlog.map((a, i) => (
                     <div className="rounded-lg shadow-xl p-8 mb-4 bg-gray-800" key={i}>
                       <div className="font-semibold text-xl">{a.title}</div>
-                      <Link to={`/blogs/${a.id}`} className="flex items-center text-orange-500 hover:text-orange-700 mt-2">
+                      <Link  className="flex items-center text-orange-500 hover:text-orange-700 mt-2">
                         Read more <FaArrowRightToBracket className="ml-2" />
                       </Link>
                     </div>

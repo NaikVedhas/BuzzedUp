@@ -3,14 +3,8 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
-    const { data, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/67192f1aad19ca34f8bd6629`);
+    const { authorData, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/671939c9e41b4d34e447aac0`);
 
-    const uniqueAuthors = data
-        ? data.map(blog => ({ author: blog.author, authorPic: blog.authorPic, popularStatus: blog.popular, id: blog.id }))
-            .filter((value, index, self) =>
-                index === self.findIndex((t) => t.author === value.author) // Filter out duplicates based on the author name
-            )
-        : [];
 
     return (
         <div className="bg-black text-white p-4">
@@ -21,13 +15,11 @@ const Profile = () => {
                 </div>
             )}
             {error && <h1>{error}</h1>}
+            {authorData && (
 
-            {/* Catchy Heading */}
-
-            {/* Display authors in a grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                {uniqueAuthors.map((u, index) => (
-                    <div key={index} className="mb-8 relative flex flex-col items-center">
+                {authorData.map((u) => (
+                    <div key={u.id} className="mb-8 relative flex flex-col items-center">
                         <div className="relative">
                             <Link to={`${u.id}`}>
                                 <img
@@ -35,7 +27,7 @@ const Profile = () => {
                                     alt="Author"
                                     className="w-64 h-64 rounded-full object-cover shadow-lg transition-transform duration-300 ease-in-out hover:scale-110" // Fixed hover effect
                                 />
-                                {u.popularStatus === "yes" && (
+                                {u.popular === "yes" && (
                                     <div className="absolute top-0 right-0 bg-orange-500 text-white text-sm font-bold px-3 py-2 rounded-full animate-pulse shadow-lg">
                                         Popular
                                     </div>
@@ -46,6 +38,7 @@ const Profile = () => {
                     </div>
                 ))}
             </div>
+            )}
         </div>
     );
 }

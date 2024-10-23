@@ -7,7 +7,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 function Blogs() {
   const [category, setCategory] = useState('');
-  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/67192f1aad19ca34f8bd6629`);
+  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/671939c9e41b4d34e447aac0`);
 
   const categoryarr = ['All', 'AI', 'Work', 'Health', 'Fintech', 'Startups', 'Security', 'Enterprise'];
 
@@ -21,12 +21,12 @@ function Blogs() {
     }
   };
 
-  const { data, error, isLoading } = useFetch(url);
-  const populardata = data ? data.filter((d) => d.popular === "yes") : [];
+  const { blogsData, error, isLoading } = useFetch(url);
+  const populardata = blogsData ? blogsData.filter((d) => d.popular === "yes") : [];
 
   const filteredData = category          //We perofmed filter on clinet side because api doesnt provide that functionality 
-  ? data.filter((d) => d.category === category) // Filtering the data locally
-  : data; // Show all data if category is not selected
+  ? blogsData.filter((d) => d.category === category) // Filtering the data locally
+  : blogsData; // Show all data if category is not selected
 
   return (
     <>

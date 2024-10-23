@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 const useFetch = (url) => {
  
-    const [data,setData] = useState([]);
+    const [blogsData,setBlogsData] = useState([]);
+    const [authorData,setAuthorData] = useState([]);
     const [isLoading,setIsLoading] = useState(true);
     const [error,setError] = useState(null);
     
@@ -21,7 +22,8 @@ const useFetch = (url) => {
             return res.json();
         })
         .then(data =>{
-            setData(data.record.blogs);
+            setBlogsData(data.record.blogs);
+            setAuthorData(data.record.authors);
             setIsLoading(false);
             setError(null);
 
@@ -37,6 +39,6 @@ const useFetch = (url) => {
 
     
  
-    return {data,error,isLoading};
+    return {blogsData,authorData,error,isLoading};
 }
 export default useFetch;
