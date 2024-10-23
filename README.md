@@ -4,7 +4,7 @@ Welcome to **BuzzedUp**, a dynamic web application built with React that brings 
 
 ## 🌐 Live Demo
 
-Check out the live application here: [BuzzedUp](https://buzzedup.vercel.app/)
+Check out the live application here: [BuzzedUp](https://buzzedup.vercel.app/){:target="_blank"}
 
 ## 🌟 Features
 
