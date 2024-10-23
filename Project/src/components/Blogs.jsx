@@ -1,81 +1,74 @@
-import {  useState } from "react";
-import { Link } from "react-router-dom";
-import BlogCard from "./BlogCard";
-import useFetch from "./useFetch";
-import { FaArrowRightToBracket } from "react-icons/fa6";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { NavLink } from 'react-router-dom';
+import { FaFacebook, FaInstagram, FaDribbble } from 'react-icons/fa';
 
-function Blogs() {
-  const [category, setCategory] = useState('');
-  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/67194797ad19ca34f8bd7089`);
-
-  const categoryarr = ['All', 'AI', 'Work', 'Health', 'Fintech', 'Startups', 'Security', 'Enterprise'];
-
- 
-
-  const handleCategory = (c) => {
-    if (c === 'All') {
-      setCategory('');
-    } else {
-      setCategory(c);
-    }
-  };
-
-  const { blogsData, error, isLoading } = useFetch(url);
-  const populardata = blogsData ? blogsData.filter((d) => d.popular === "yes") : [];
-
-  const filteredData = category          //We perofmed filter on clinet side because api doesnt provide that functionality 
-  ? blogsData.filter((d) => d.category === category) // Filtering the data locally
-  : blogsData; // Show all data if category is not selected
-
+const Navbar = () => {
   return (
-    <>
-      <div className="bg-gray-100 py-4">
-        <div className="flex justify-center space-x-4">
-          {categoryarr.map((c, i) => (
-            <button
-              key={i}
-              onClick={() => handleCategory(c)}
-              className={`px-6 py-2 rounded-full border-2 hover:bg-orange-500 hover:text-white`}
-            >
-              {c}
-            </button>
-          ))}
-        </div>
+    <header className='flex justify-between items-center px-8 py-4 bg-black text-white sticky top-0 z-50 shadow-lg'>
+
+      {/* Logo Section */}
+      <div className='flex-shrink-0'>
+        <NavLink className='italic text-4xl ml-5 tracking-wide font-bold hover:scale-105 transition-transform duration-300' to='/'>
+          Buzzed<b className='text-orange-500'>Up</b>
+        </NavLink>
       </div>
 
-      {/* Main section with BlogCards on left and Popular section on right */}
-      <div className="flex justify-between mt-8 px-8">
-        {/* Blog cards section */}
-        <div className="w-3/4">
-          {isLoading && (<div className="flex justify-center items-center">
-              <AiOutlineLoading3Quarters className="text-orange-500 animate-spin text-8xl" />
-            </div>)}
-          {error && <h1 className="text-red-500 text-3xl text-center">{error}</h1>}
-          {filteredData && <BlogCard data={filteredData} />}
-        </div>
+      {/* Navigation Links */}
+      <ul className='flex-grow flex justify-center gap-8 italic items-center text-lg'>
+        <li className='hover:text-orange-500 transition-colors duration-300'>
+          <NavLink to='/'
+            className={({ isActive }) => (isActive ? 'text-orange-500 underline decoration-wavy' : 'text-white')}>
+            Home
+          </NavLink>
+        </li>
+        <li className='hover:text-orange-500 transition-colors duration-300'>
+          <NavLink to='/services'
+            className={({ isActive }) => (isActive ? 'text-orange-500 underline decoration-wavy' : 'text-white')}>
+            Services
+          </NavLink>
+        </li>
+        <li className='hover:text-orange-500 transition-colors duration-300'>
+          <NavLink to='/profile'
+            className={({ isActive }) => (isActive ? 'text-orange-500 underline decoration-wavy' : 'text-white')}>
+            Authors
+          </NavLink>
+        </li>
+        <li className='hover:text-orange-500 transition-colors duration-300'>
+          <NavLink to='/blogs'
+            className={({ isActive }) => (isActive ? 'text-orange-500 underline decoration-wavy' : 'text-white')}>
+            Blogs
+          </NavLink>
+        </li>
+        <li className='hover:text-orange-500 transition-colors duration-300'>
+          <NavLink to='/about'
+            className={({ isActive }) => (isActive ? 'text-orange-500 underline decoration-wavy' : 'text-white')}>
+            About
+          </NavLink>
+        </li>
+        <li className='hover:text-orange-500 transition-colors duration-300'>
+          <NavLink to='/contact'
+            className={({ isActive }) => (isActive ? 'text-orange-500 underline decoration-wavy' : 'text-white')}>
+            Contact
+          </NavLink>
+        </li>
+      </ul>
 
-        {/* Popular section */}
-        <div className="w-1/4 ml-4">
-          <div className="bg-white p-4 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold mb-4 text-center border-b-2 border-orange-500 pb-2">Popular</h2>
-            {populardata.length > 0 ? (
-              populardata.map((d, i) => (
-                <div className="mb-4 p-2 border-b" key={i}>
-                  <div className="font-semibold">{d.title}</div>
-                  <Link to={`/blogs/${d.id}`} className="flex items-center text-orange-500 hover:text-orange-700 mt-1">
-                    Read more <FaArrowRightToBracket className="ml-2" />
-                  </Link>
-                </div>
-              ))
-            ) : (
-              <p className="text-gray-600 animate-pulse font-bold text-3xl" >Looking for Popular Blogs</p>
-            )}
-          </div>
-        </div>
+      {/* Social Icons & Log In Button */}
+      <div className='flex items-center gap-4'>
+        <a className='hover:text-orange-500 hover:scale-110 transition-all duration-300' href="https://facebook.com">
+          <FaFacebook size={24} />
+        </a>
+        <a className='hover:text-orange-500 hover:scale-110 transition-all duration-300' href="https://instagram.com">
+          <FaInstagram size={24} />
+        </a>
+        <a className='hover:text-orange-500 hover:scale-110 transition-all duration-300' href="https://dribbble.com">
+          <FaDribbble size={24} />
+        </a>
+        <button className='bg-orange-500 py-2 px-5 ml-6 rounded-full text-lg hover:bg-white hover:text-orange-500 shadow-md transition-all duration-300'>
+          Log in
+        </button>
       </div>
-    </>
+    </header>
   );
 }
 
-export default Blogs;
+export default Navbar;
