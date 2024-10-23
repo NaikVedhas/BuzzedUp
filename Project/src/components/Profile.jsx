@@ -3,7 +3,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
-    const { authorData, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/671939c9e41b4d34e447aac0`);
+    const { authorData, error, isLoading } = useFetch(`https://api.jsonbin.io/v3/b/67194797ad19ca34f8bd7089`);
 
 
     return (
@@ -19,9 +19,9 @@ const Profile = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {authorData.map((u) => (
-                    <div key={u.id} className="mb-8 relative flex flex-col items-center">
+                    <div key={u.authorid} className="mb-8 relative flex flex-col items-center">
                         <div className="relative">
-                            <Link to={`${u.id}`}>
+                            <Link to={`${u.authorid}`}>
                                 <img
                                     src={u.authorPic}
                                     alt="Author"
@@ -34,7 +34,7 @@ const Profile = () => {
                                 )}
                             </Link>
                         </div>
-                        <h2 className="text-lg mt-4">{u.author}</h2>
+                        <h2 className="text-xl italic mt-4">{u.name}</h2>
                     </div>
                 ))}
             </div>

@@ -7,7 +7,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 function Blogs() {
   const [category, setCategory] = useState('');
-  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/671939c9e41b4d34e447aac0`);
+  const [url, setUrl] = useState(`https://api.jsonbin.io/v3/b/67194797ad19ca34f8bd7089`);
 
   const categoryarr = ['All', 'AI', 'Work', 'Health', 'Fintech', 'Startups', 'Security', 'Enterprise'];
 
@@ -21,7 +21,7 @@ function Blogs() {
     }
   };
 
-  const { blogsData, error, isLoading } = useFetch(url);
+  const { blogsData,authorData, error, isLoading } = useFetch(url);
   const populardata = blogsData ? blogsData.filter((d) => d.popular === "yes") : [];
 
   const filteredData = category          //We perofmed filter on clinet side because api doesnt provide that functionality 
@@ -52,7 +52,7 @@ function Blogs() {
               <AiOutlineLoading3Quarters className="text-orange-500 animate-spin text-8xl" />
             </div>)}
           {error && <h1 className="text-red-500 text-3xl text-center">{error}</h1>}
-          {filteredData && <BlogCard data={filteredData} />}
+          {filteredData && <BlogCard data={filteredData} authorData={authorData} />}
         </div>
 
         {/* Popular section */}
