@@ -15,6 +15,9 @@ const Navbar = () => {
         <li className='hover:text-orange-500'><NavLink to='/services'
         className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
         >Services</NavLink></li>
+        <li className='hover:text-orange-500'><NavLink to='/profile'
+        className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
+        >Authors</NavLink></li>
         <li className='hover:text-orange-500'><NavLink to='/blogs'
         className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
         >Blogs</NavLink></li>
