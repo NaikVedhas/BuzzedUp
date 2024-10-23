@@ -3,6 +3,8 @@ import useFetch from "./useFetch";
 import { FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaArrowRightToBracket } from "react-icons/fa6";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+
 
 const Profile = () => {
   const { id } = useParams();
@@ -17,7 +19,9 @@ const Profile = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center">
-      {fulllisLoading && <h1>Loading...</h1>}
+      {fulllisLoading && (<div className="flex justify-center items-center">
+              <AiOutlineLoading3Quarters className="text-orange-500 animate-spin text-8xl" />
+            </div>)}
       {fullerror && <h1>{fullerror}</h1>}
       {data && (
         <div className="w-full flex flex-col items-center p-8 relative">

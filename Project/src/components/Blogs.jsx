@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import BlogCard from "./BlogCard";
 import useFetch from "./useFetch";
 import { FaArrowRightToBracket } from "react-icons/fa6";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 function Blogs() {
   const [category, setCategory] = useState('');
@@ -47,7 +48,9 @@ function Blogs() {
       <div className="flex justify-between mt-8 px-8">
         {/* Blog cards section */}
         <div className="w-3/4">
-          {isLoading && <h1 className="text-orange-500 text-5xl text-center">Loading...</h1>}
+          {isLoading && (<div className="flex justify-center items-center">
+              <AiOutlineLoading3Quarters className="text-orange-500 animate-spin text-8xl" />
+            </div>)}
           {error && <h1 className="text-red-500 text-3xl text-center">{error}</h1>}
           {filteredData && <BlogCard data={filteredData} />}
         </div>
@@ -66,7 +69,7 @@ function Blogs() {
                 </div>
               ))
             ) : (
-              <p className="text-gray-600">No popular blogs available.</p>
+              <p className="text-gray-600 animate-pulse font-bold text-3xl" >Looking for Popular Blogs</p>
             )}
           </div>
         </div>
