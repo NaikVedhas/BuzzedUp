@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaDribbble } from 'react-icons/fa';
 
 const Navbar = () => {
@@ -6,14 +6,24 @@ const Navbar = () => {
     <header className='flex justify-between items-center px-3 py-4 max-w-full mx-auto bg-black text-white sticky top-0 z-50 shadow-md'>
 
       <div className='my-8 mr-60'>
-        <Link className='italic text-4xl ml-5' to='/'>Buzzed<b className='text-orange-500'>Up</b></Link>
+        <NavLink className='italic text-4xl ml-5' to='/'>Buzzed<b className='text-orange-500'>Up</b></NavLink>
       </div>
       <ul className='my-4 mx-20 flex gap-6 italic items-center'>
-        <li className='hover:text-orange-500'><Link to='/'>Home</Link></li>
-        <li className='hover:text-orange-500'><Link to='/services'>Services</Link></li>
-        <li className='hover:text-orange-500'><Link to='/blogs'>Blogs</Link></li>
-        <li className='hover:text-orange-500'><Link to='/about'>About</Link></li>
-        <li className='hover:text-orange-500'><Link to='/contact'>Contact</Link></li>
+        <li className='hover:text-orange-500'><NavLink to='/'
+        className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
+        >Home</NavLink></li>
+        <li className='hover:text-orange-500'><NavLink to='/services'
+        className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
+        >Services</NavLink></li>
+        <li className='hover:text-orange-500'><NavLink to='/blogs'
+        className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
+        >Blogs</NavLink></li>
+        <li className='hover:text-orange-500'><NavLink to='/about'
+        className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
+        >About</NavLink></li>
+        <li className='hover:text-orange-500'><NavLink to='/contact'
+        className={({ isActive }) => (isActive ? 'text-orange-500' : 'text-white')}
+        >Contact</NavLink></li>
       </ul>
       <div className='my-4 ml-48 flex gap-4 items-center'>
         <a className='hover:text-orange-500' href="https://facebook.com"><FaFacebook /></a>
