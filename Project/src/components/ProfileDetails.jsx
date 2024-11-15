@@ -68,7 +68,7 @@ const Profile = () => {
                 ? artistBlog.map((a, i) => (
                     <div className="rounded-lg shadow-xl p-8 mb-4 bg-gray-800" key={i}>
                       <div className="font-semibold text-xl">{a.title}</div>
-                      <Link  className="flex items-center text-orange-500 hover:text-orange-700 mt-2">
+                      <Link to={`/blogs/${a.id}`}  className="flex items-center text-orange-500 hover:text-orange-700 mt-2">
                         Read more <FaArrowRightToBracket className="ml-2" />
                       </Link>
                     </div>
