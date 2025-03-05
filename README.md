@@ -28,21 +28,4 @@ Here are some images from the project:
 2. ![Image 2](https://drive.google.com/uc?export=view&id=1_fBobuHFHAhLPyG1soQ3Fxfxv4Ge6wrg)
 3. ![Image 3](https://drive.google.com/uc?export=view&id=169rLe3GsIl3RXKg3WLfLwQVrjdN6wN-9)
 4. ![Image 4](https://drive.google.com/uc?export=view&id=1hjpNEXsBbqD6k6ZA0uE6psSmu5rlCjR6)
-5. ![Image 5](https://drive.google.com/uc?export=view&id=1AjbxP7OX9kmUlkIqKyBu4KHhGHbMk8AB)
 
-## 🚀 Getting Started
-
-To get started with the project, follow these steps:
-
-1. 🛠️ Clone the repository.
-2. 📂 Navigate into the project directory.
-3. 📦 Install dependencies using `npm install`.
-4. 🚀 Start the development server using `npm start`.
-
-## 🤝 Contributing
-
-If you'd like to contribute, please fork the repository and submit a pull request. Your contributions are welcome!
-
----
-
-Feel free to customize the emojis or the structure further based on your preferences. This README should provide a clear and attractive overview of your project!
