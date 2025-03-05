@@ -14,7 +14,7 @@ const Profile = () => {
                     <AiOutlineLoading3Quarters className="text-orange-500 animate-spin text-8xl" />
                 </div>
             )}
-            {error && <h1>{error}</h1>}
+            {error && <h1 className="text-orange-500 text-center text-9xl">{error}</h1>}
             {authorData && (
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

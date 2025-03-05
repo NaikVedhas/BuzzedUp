@@ -31,7 +31,6 @@ const useFetch = (url) => {
         .catch(e =>{
             setIsLoading(false);
             setError(e.message);
-            console.log("Efeferg");
             
         });
 
